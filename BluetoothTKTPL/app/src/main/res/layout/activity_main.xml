@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_marginBottom="272dp"
+        android:gravity="center"
+        android:text="@string/txtTitle"
+        android:textColor="#1C1616"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintBottom_toTopOf="@+id/txtCount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtCount"
+        android:layout_width="165dp"
+        android:layout_height="26dp"
+        android:layout_marginBottom="400dp"
+        android:gravity="center"
+        android:text="@string/txtDevices"
+        android:textColor="#1C1616"
+        android:textSize="24sp"
+        android:textStyle="normal|bold"
+        app:fontFamily="sans-serif-thin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnTurnOn"
+        android:layout_width="161dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="612dp"
+        android:background="#FFC107"
+        android:onClick="on"
+        android:text="@string/btnTurnOn"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnTurnOff"
+        android:layout_width="161dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="556dp"
+        android:background="#FFC107"
+        android:onClick="off"
+        android:text="@string/btnTurnOff"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnScanNew"
+        android:layout_width="161dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="500dp"
+        android:background="#FFC107"
+        android:onClick="find"
+        android:text="@string/btnScanNew"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnListPaired"
+        android:layout_width="161dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="440dp"
+        android:background="#FFC107"
+        android:onClick="list"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/btnListPaired" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="297dp"
+        android:layout_height="352dp"
+        android:layout_marginTop="340dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="196dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:text="@string/txtStatus"
+        android:textColor="#1C1616"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

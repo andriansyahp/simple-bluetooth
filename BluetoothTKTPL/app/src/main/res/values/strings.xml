@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Bluetooth - TKTPL</string>
+    <string name="txtTitle">Bluetooth Simple Scanner</string>
+    <string name="aaa" />
+    <string name="btnTurnOn">Turn On</string>
+    <string name="btnTurnOff">Turn Off</string>
+    <string name="btnScanNew">Scan</string>
+    <string name="btnListPaired">Paired</string>
+    <string name="txtDevices">Devices</string>
+    <string name="txtStatus" />
+    <string name="txtStatusEnabled">Enabled</string>
+    <string name="txtStatusDisabled">Disabled</string>
+    <string name="txtStatusDisconnected">Disconnected</string>
+    <string name="txtStatusSupported">Supported</string>
+    <string name="txtStatusUnsupported">Not Supported</string>
+</resources>
